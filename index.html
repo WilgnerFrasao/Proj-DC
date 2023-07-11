@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./src/CSS/responsivo.css">
 </head>
 
-<body>
+<body id="container">
   <header class="cabecalho">
     <img class="logo" src="./src/imagens/logo-dc.png.png" alt="Logo X-MEN">
   </header>
@@ -21,28 +21,28 @@
     <section class="personagens">
       <h1 class="titulo">Selecione um personagem</h1>
       <ul class="lista-de-personagens">
-        <li class="personagem" id="batman">
+        <li class="personagem selecionado" id="batman" data-name="Batman" data-description ="Bruce Wayne criou o Batman para causar medo no submundo de Gotham e para defender os inocentes. O uniforme e a maneira como age quando o usa tem o objetivo de intimidar seus adversários. " >
           <img src="./src/imagens/personagens/batman.jpeg" alt="Personagem Batman" />
         </li>
-        <li class="personagem" id="mulher-maravilha">
+        <li class="personagem" id="mulhermaravilha" data-name="Mulher Maravilha" data-description="Muito antes de se tornar a Mulher-Maravilha, Diana nasceu em Themyscira, com o seus pais sendo Hipólita e Zeus. E, como o seu sangue materno era humano e sangue paterno era de um deus, Diana viria a ser uma semi-deusa.">
           <img src="./src/imagens/personagens/wonder-wonam.jpeg" alt="Personagem Mulher Maravilha" />
         </li>
-        <li class="personagem" id="superman">
+        <li class="personagem" id="superman" data-name="Superman" data-description="O nome de batismo do Superman é Kal-El. A princípio, seu pai, o cientista Jor-El, descobriu que Krypton seria destruída, por isso ele mandou Kal-El para Terra, na esperança de que ele fosse salvo.">
           <img src="./src/imagens/personagens/superman.jpeg" alt="Personagem Superman" />
         </li>
-        <li class="personagem" id="flash">
+        <li class="personagem" id="flash" data-name="Flash" data-description="Barry Allenfoi banhado por produtos químicos após seu laboratório ser atingido por um raio. Esse acidente fez que ele fosse capaz de canalizar a Força da Aceleração para correr em velocidades altíssimas.">
           <img src="./src/imagens/personagens/flash.jpeg" alt="Personagem Flash" />
         </li>
-        <li class="personagem" id="lanterna-verde">
+        <li class="personagem" id="lanterna" data-name="Lanterna Verde" data-description="Hal Jordan é o mais conhecido Lanterna Verde, ele foi o primeiro humano induzido na Tropa dos Lanternas Verdes. Hal também é membro fundador da Liga da Justiça da América. Ele também foi conhecido como Parallax e o Espectro.">
           <img src="./src/imagens/personagens/lanterna verde.jpeg" alt="Personagem Lanterna Verde" />
         </li>
-        <li class="personagem" id="aquaman">
+        <li class="personagem" id="aquaman" data-name="Aquaman" data-description="Arthur Curry é o Aquaman, um aventureiro que é meio-humano e meio-atlante. Isso lhe dá uma variedade de poderes, incluindo força sobre-humana, controle telepático sobre a vida marinha e a capacidade de sobreviver tanto na água como na terra.">
           <img src="./src/imagens/personagens/aquaman.jpeg" alt="Personagem Aquaman" />
         </li>
-        <li class="personagem" id="shazam">
+        <li class="personagem" id="shazam" data-name="Shazam!" data-description="Sabedoria de Salomão, a força de Hércules, o vigor de Atlas, os poderes de Zeus, a coragem de Aquiles e a velocidade de Mercúrio. Esses são o poderes e virtudes do super-herói Shazam.">
           <img src="./src/imagens/personagens/shazam.jpeg" alt="Personagem Shazam" />
         </li>
-        <li class="personagem" id="robin">
+        <li class="personagem" id="robin" data-name="Robin" data-description="Robin é um título usado por vários personagens da DC Comics, normalmente atrelado ao núcleo do Batman.Como uma equipe, Batman e Robin são comumente referidos como os Crusados Encapuzados e a Dupla Dinâmica.">
           <img  src="./src/imagens/personagens/robin.jpeg" alt="Personagem Robin" />
         </li>
       </ul>
@@ -57,6 +57,7 @@
       </div>
     </section>
   </main>
+  <script src="./src/js/index.js"></script>
 </body>
 
 </html>
