@@ -50,9 +50,10 @@ function alterarNomePersonagemSelecionado(personagem) {
 
 function alterarImagemPersonagemSelecionado(personagem) {
     const imagemPersonagemGrande = document.querySelector('.personagem-grande')
-
+    const body = document.body;
     const idPersonagem = personagem.attributes.id.value // pega o valor da id de "personagem"
     imagemPersonagemGrande.src = `./src/imagens/personagens/${idPersonagem}-grande.png` //altera a imagem
+    body.style.backgroundImage = `url(./src/imagens/cenarios/cenario-${idPersonagem}.jpeg)`;
 
 
     
