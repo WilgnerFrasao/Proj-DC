@@ -5,6 +5,7 @@ Esse projeto apresenta um seleção de personagens com descrição, destaque de 
 Ao colocar o mouse sobre um icone, cada personagem é apresentado detalhadamente.
 <br><br>
 *Gif do projeto funcionando:*
+<br>
 ![](./src/imagens/gif-dc.gif)
 <br><br>
 Tecnologias utilizadas: 
